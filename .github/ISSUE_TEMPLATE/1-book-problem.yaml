@@ -17,6 +17,13 @@ body:
     validations:
       required: false
   - type: input
+    id: which-version
+    attributes:
+      label: Which version are you commenting on?
+      description: The version is on the first page.
+    validations:
+      required: true
+  - type: input
     id: which-part
     attributes:
       label: Which part are you commenting on?
